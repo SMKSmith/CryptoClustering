@@ -30,6 +30,7 @@ Using the original scaled DataFrame, perform a PCA and reduce the features to th
 Retrieve the explained variance to determine how much information can be attributed to each principal component and then answer the following question in your notebook:
 
 What is the total explained variance of the three principal components?
+
 Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
 ## Find the Best Value for k Using the PCA Data
