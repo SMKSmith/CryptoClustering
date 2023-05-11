@@ -15,14 +15,14 @@ What is the best value for k? The best value for k is 4
 ## Cluster Cryptocurrencies with K-means Using the Original Scaled Data
 Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
 
-Initialize the K-means model with the best value for k.
-Fit the K-means model using the original scaled DataFrame.
-Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
-Create a copy of the original data and add a new column with the predicted clusters.
-Create a scatter plot using hvPlot as follows:
-Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
-Color the graph points with the labels found using K-means.
-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+* Initialize the K-means model with the best value for k.
+* Fit the K-means model using the original scaled DataFrame.
+* Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
+* Create a copy of the original data and add a new column with the predicted clusters.
+* Create a scatter plot using hvPlot as follows:
+* Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
+* Color the graph points with the labels found using K-means.
+* Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 ## Optimize Clusters with Principal Component Analysis
 Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
