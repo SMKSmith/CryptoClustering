@@ -57,6 +57,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 * Color the graph points with the labels found using K-means.
 * Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 * Answer the following question:
-* What is the impact of using fewer features to cluster the data using K-Means?
+
+What is the impact of using fewer features to cluster the data using K-Means?
 
 Since there are numerous variables the data is spread out. After using the PCA a lot of the noise was removed and the data is clustered closer together making the clusters stronger correlated. 
