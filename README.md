@@ -31,7 +31,7 @@ Retrieve the explained variance to determine how much information can be attribu
 
 What is the total explained variance of the three principal components?
 
-##### Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+* Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
 ## Find the Best Value for k Using the PCA Data
 Use the elbow method on the PCA data to find the best value for k using the following steps:
